@@ -127,7 +127,7 @@ nav {
     margin: 0 auto;
 }
 
-.main-container {
+.main-container-about-section {
     border-radius: 10px;
     background-color: #FFF8F3;
     padding: 100px;
@@ -156,12 +156,12 @@ nav {
 
 .main-container-contact {
     display: flex;
-    
+
 }
 
 .main-container-contact div {
     padding: 20px;
-    
+
 }
 
 .main-container-contact-up {
@@ -174,8 +174,51 @@ nav {
 
 .main-container-contact-down {
     text-align: center;
-    color:#474747;
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+/* Main Container About Section Two */
+
+.main-container-about-section-two {
+    border-radius: 10px;
+    background-color: ;
+    padding: 100px;
+    margin-top: -20px;
+}
+
+/* Main Container Experience Section */
+
+.main-container-exp-section {
+    display: flex;
+    gap: 13px;
+
+}
+
+.exp-section-box {
+    padding-left: 42px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.exp-section-box-heading {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.exp-section-box-desc {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 200px;
+}
+
+.exp-section-box img {
+    margin-bottom: 30px;
 }
